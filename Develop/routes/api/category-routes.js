@@ -8,7 +8,18 @@ router.get("/", (req, res) => {
   // be sure to include its associated Products
   Category.findAll({
     include: [Product],
-  }).then((data) => res.json(data));
+  })
+    .then((dbCategoryData) => {
+      if (!dbCategoryData) {
+        res.status(404).json({ message: "No Categories" });
+        return;
+      }
+      res.json(dbCategoryData);
+    })
+    .catch((err) => {
+      console.log(err);
+      res.status(500).json(err);
+    });
 });
 
 router.get("/:id", (req, res) => {
