@@ -6,7 +6,10 @@
 
 The below link is a demonstration of how this application works in the termianl and insomnia .
 
-View a complete walkthrough video that demonstrates the functionality of the e-commerce back end: [E-commerce-Back-End](https://drive.google.com/file/d/1M_cLfTrsWvkfGJ2ZNzClNaH2fUm0D4oa/view)
+View a complete walkthrough video that demonstrates the functionality of the e-commerce back end:
+
+- [E-commerce-Back-End MySQL Walkthrough](https://drive.google.com/file/d/1XNz4Bu18z4N0HkOtwwwXMenJGrliugCq/view)
+- [E-commerce-Back-End Api Routes in Insomnia Walkthrough](https://drive.google.com/file/d/1q_fSA8yQiEFZ2qDUajR5spSd5tFlQCne/view)
 
 ## Table of Contents
 
